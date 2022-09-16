@@ -1,0 +1,3 @@
+bar = input('введіть перше число')
+bar1 = input('введіть друге число')
+print(bar1 + bar, bar + bar1)
