@@ -1,0 +1,13 @@
+import math
+x = float(input("Ведіть значення x: "))
+if x >= 3 :
+   bar1 = x - math.log1p (x) + math.log10(2) (x) +math.pow (math.exp , x)
+   print(bar1)
+elif 0.2 < x : 
+    bar2 = 6.53 ** 1-x /(math.exp ( 0.1 ** x )) + 0.11*x
+    print(bar2)
+elif x <= 0.2 : 
+    bar3 = 5.3 + x (math.exp ** x)
+    print(bar3)
+else :
+    print("Неможливо знайти значення ")
