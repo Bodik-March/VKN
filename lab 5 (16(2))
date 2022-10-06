@@ -1,0 +1,4 @@
+i = input("Ведіть число трьох значне число:")
+a = min(i)
+b = max(i)
+print(int(a) + int(b))
