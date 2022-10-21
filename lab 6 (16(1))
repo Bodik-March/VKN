@@ -1,0 +1,9 @@
+import math
+x = float(input("x = "))
+a = int(input("a = "))
+b= int(input("b = "))
+h = int(input("h = "))
+for i in range(a, b, h):
+y = pow(x,3) + pow(math.e,x) / math.fabs (math.sin(x)) + 0.12 
+print("%i x = %.1f y = %.3f"%(i,x,y))
+x = x+h
